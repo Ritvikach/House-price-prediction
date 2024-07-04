@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* Reset default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Container for form */
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(181, 174, 174, 0.1);
+    border-radius: 8px;
+}
+
+/* Form heading */
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form field labels */
+.form-label {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Text input style */
+.text-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Radio button group container */
+.radio-group {
+    margin-bottom: 20px;
+}
+
+/* Radio button label style */
+.radio-label {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Radio button label hover effect */
+.radio-label:hover {
+    background-color: #e0e0e0;
+}
+
+/* Radio button input style */
+.radio-input {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+/* Selected radio button label style */
+.radio-input:checked + .radio-label {
+    background-color: #a5dc86;
+    color: #fff;
+    border: 1px solid #a5dc86;
+}
+
+/* Dropdown select style */
+.select-dropdown {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+/* Submit button style */
+.submit-btn {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Result box style */
+.result-box {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+}
